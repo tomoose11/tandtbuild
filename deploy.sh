@@ -8,4 +8,5 @@ cd dist
 git add -A
 git commit -m 'deploy'
 git push -f git@github.com:tomoose11/tandtbuild.git master:gh-pages
+echo 'done'
 cd -
